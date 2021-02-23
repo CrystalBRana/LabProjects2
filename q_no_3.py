@@ -6,4 +6,4 @@ K = int(input('Enter the number of apples:'))
 D = K//N
 print('The number of apples that each students will get', D)
 R = K%N
-print('The remaining apples are ', R)
+print('The remaining apples are '+ str(R))
