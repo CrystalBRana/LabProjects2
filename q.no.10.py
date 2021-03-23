@@ -8,4 +8,4 @@ seconds_in_minute = 60
 days = seconds // seconds_in_day
 hours = (seconds - (days * seconds_in_day))// seconds_in_hour
 minutes = (seconds - (days * seconds_in_day) - (hours * seconds_in_hour)) // seconds_in_minute
-print(days)
+print(days, hours)
